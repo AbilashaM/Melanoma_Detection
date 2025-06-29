@@ -30,7 +30,7 @@ def load_keras_model(url: str, path: str):
     return tf.keras.models.load_model(path)  # works for .keras files :contentReference[oaicite:0]{index=0}
 
 model1 = load_keras_model(MODEL_URL, MODEL_PATH)
-st.success("Model ready!")
+
 
 #@st.cache_resource()
 #def load_model():
